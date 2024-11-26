@@ -3,8 +3,7 @@ Neste repositório estão contidos os códigos referentes ao site da linha do te
 
 ## 📈Funcionalidades
 
-- Linha do tempo interativa: Explore marcos importantes com datas, descrições e imagens relevantes
-- Desing por período: Compatível com desktops e dispositivos móveis
+- Linha do tempo interativa: Explore marcos importantes com datas, descrições e imagens relevantes.
 
 ## 🎯Objetivos do Projeto 
 
