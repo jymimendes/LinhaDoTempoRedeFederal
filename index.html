@@ -10,7 +10,45 @@
             <h1>Linha do Tempo da Rede Federal</h1>
         </header>
 
-        <main>
+        <div class="container">
+          <div class="sidebar">
+            <h2>Índice</h2>
+            <a href="#evento1909">Evento 1909</a>
+            <a href="#evento1927">Evento 1927</a>
+            <a href="#evento1930">Evento 1930</a>
+            <a href="#evento1937">Evento 1937</a>
+            <a href="#evento1941">Evento 1941</a>
+            <a href="#evento1942">Evento 1942</a>
+            <a href="#evento1944">Evento 1944</a>
+            <a href="#evento1956-1961">Evento 1956-1961</a>
+            <a href="#evento1959">Evento 1959</a>
+            <a href="#evento1961">Evento 1961</a>
+            <a href="#evento1967">Evento 1967</a>
+            <a href="#evento1971">Evento 1971</a>
+            <a href="#evento1978">Evento 1978</a>
+            <a href="#evento1980-1990">Evento 1980-1990</a>
+            <a href="#evento1994">Evento 1994</a>
+            <a href="#evento1996">Evento 1996</a>
+            <a href="#evento1997">Evento 1997</a>
+            <a href="#evento1999">Evento 1999</a>
+            <a href="#evento2004">Evento 2004</a>
+            <a href="#evento2005">Evento 2005</a>
+            <a href="#evento2006">Evento 2006</a>
+            <a href="#evento2007">Evento 2007</a>
+            <a href="#evento2008">Evento 2008</a>
+            <a href="#evento2009">Evento 2009</a>
+            <a href="#evento2024">Evento 2024</a>
+          </div>
+
+          <div class="content">
+            <div class="welcome-section">
+              <h1>Bem-vindo à Linha do Tempo da Rede Federal</h1>
+              <p>
+                Aqui você pode explorar os eventos mais marcantes da história da Rede Federal. Clique nas imagens para descobrir mais sobre esses momentos históricos.
+              </p>
+            </div>
+
+        <main class="timeline">
             <article>
                 <h2>1909 - Criação das Escolas de Aprendizes Artífices</h2>
                 <img
@@ -293,59 +331,60 @@
                     <li>O <strong>Cefet Paraná</strong> é transformado em <strong>Universidade Tecnológica Federal do Paraná</strong>, marcando uma nova fase de desenvolvimento para a instituição e expandindo sua missão educacional.</li>
                 </ul>
             </article>
-            <article>
+
+            <article class="event left" id="evento2006" onclick="toggleContent(this)">
                 <h2>2006 - Decreto 5.773</h2>
                 <img
                     src="img-2006.png"
                     alt="Evento 2006"
                     class="image"/>
           
-                <p>
+                <p class="event-content">
                   Estabeleceu normas para regulação e avaliação das instituições e cursos
                   superiores no sistema federal.
                 </p>
           
-                <p>
+                <p class="event-content">
                   <strong>Proeja:</strong>Programa de integração da educação profissional
                   com jovens e adultos, para atender quem não concluiu os estudos em idade
                   regular.
                 </p>
           
-                <p>
+                <p class="event-content">
                   <strong>Catálogo dos Cursos Superiores de Tecnologia:</strong>Criado
                   para padronizar e organizar os cursos técnicos.
                 </p>
               </article>
           
-              <article>
+              <article class="event right" id="evento2007" onclick="toggleContent(this)">
                 <h2>2007 - Segunda fase do plano de expansão</h2>
                 <img
                     src="img-2007.png"
                     alt="Evento 2007"
                     class="image"/>
           
-                <p>Iniciada a segunda fase, com meta de 354 unidades até 2010.</p>
+                <p class="event-content">Iniciada a segunda fase, com meta de 354 unidades até 2010.</p>
           
-                <p>
+                <p class="event-content">
                   <strong>Programa Brasil profissionalizado:</strong> Incentivo ao ensino
                   técnico-profissionalizante integrado ao ensino médio nas redes
                   estaduais.
                 </p>
           
-                <p>
+                <p class="event-content">
                   <strong>Catálogo dos Cursos Técnicos:</strong> Lançado para padronizar e
                   melhorar a qualidade dos cursos técnicos.
                 </p>
               </article>
           
-              <article>
+              <article class="event left" id="evento2008" onclick="toggleContent(this)">
                 <h2>2008 - Articulação para criação dos Institutos Federais</h2>
                 <img
                     src="img-2008.png"
                     alt="Evento 2008"
                     class="image"/>
           
-                <p>
+                <p class="event-content">
                   Houve um movimento para reorganizar a Rede Federal, com a criação dos
                   Institutos Federais, que reuniram as escolas técnicas e agiriam com
                   maior autonomia para oferecer educação profissional e tecnológica em
@@ -353,28 +392,28 @@
                 </p>
               </article>
           
-              <article>
+              <article class="event right" id="evento2009" onclick="toggleContent(this)">
                 <h2>2009 - Centenário da Rede Federal</h2>
                 <img
                     src="img-2009.png"
                     alt="Evento 2009"
                     class="image"/>
           
-                <p>
+                <p class="event-content">
                   Comemoração dos 100 anos da criação da Rede Federal, que teve origem em
                   1909 com a criação das primeiras escolas de aprendizagem, voltadas para
                   o ensino profissional.
                 </p>
               </article>
           
-              <article>
+              <article class="event left" id="evento2024" onclick="toggleContent(this)">
                 <h2>2024 - A Expansão dos Institutos Federais</h2>
                 <img
                     src="img-2024.png"
                     alt="Evento 2024"
                     class="image"/>
           
-                <p>
+                <p class="event-content">
                   A Rede Federal conta com 685 unidades em todo o Brasil, abrangendo 38
                   Institutos Federais, 2 Centros Federais de Educação Tecnológica
                   (Cefets), a Universidade Tecnológica Federal do Paraná (UTFPR), 22
@@ -382,7 +421,7 @@
                   II.
                 </p>
           
-                <p>
+                <p class="event-content">
                   O Governo Federal anunciou, no dia 12 de março, a criação de 100 novos
                   campi dos Institutos Federais de Educação, Ciência e Tecnologia(IFs). A
                   iniciativa alcançará todas as unidades da Federação, gerando 140 mil
