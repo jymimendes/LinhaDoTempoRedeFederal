@@ -76,14 +76,14 @@ header {
 }
 
 .welcome-section h1 {
-  color: #d02d27;
+  color: #116142;
   font-size: 28px;
   margin-bottom: 15px;
 }
 
 .welcome-section p {
-  font-size: 16px;
-  color: #d02d27;
+  font-size: 19px;
+  color: #116142;
   text-align: justify;
 }
 
